@@ -1,0 +1,26 @@
+{
+  "name": "TitleDex",
+  "author": {
+    "name": "Spencer Anastasio",
+    "email": "anastasio.spencer@gmail.com"
+  },
+  "url": "petrodecks.com",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app/app.js"
+  },
+  "dependencies": {
+    "ejs": "*",
+    "async": "*",
+    "express": "*",
+    "request": "*",
+    "body-parser": "*",
+    "express-init": "*",
+    "serve-static": "*",
+    "method-override": "*"
+  },
+  "devDependencies": {
+    "grunt": "*"
+  }
+}
