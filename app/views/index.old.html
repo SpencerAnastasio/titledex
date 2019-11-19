@@ -4,31 +4,23 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>TitleDex</title>
-    <!-- NORMALIZE BROWSER -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" crossorigin="anonymous">
-    <!-- MODERNIZE BROWSER -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" crossorigin="anonymous"></script>
-    <!-- LOAD JQUERY -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" crossorigin="anonymous"></script>
-    <!-- LOAD BOOTSTRAP -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <!-- LOAD SOURCE FILES -->
-    <link rel="stylesheet" href="source/css/style.css" crossorigin="anonymous">
-    <script src="source/js/main.js" crossorigin="anonymous"></script>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/fontawesome.min.css" crossorigin="anonymous">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/imgLiquid/0.9.944/js/imgLiquid-min.js"crossorigin="anonymous"></script>
-    <!-- LOAD FLEXSLIDER -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/flexslider.min.css" crossorigin="anonymous">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/jquery.flexslider-min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="vendor/css/normalize.css">
+    <link rel="stylesheet" href="vendor/css/flexslider.css">
+    <link rel="stylesheet" href="vendor/css/bootstrap.css">
+    <link rel="stylesheet" href="source/css/style.css">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="vendor/js/jquery.js"></script>
+    <script src="vendor/js/imgLiquid.js"></script>
+    <script src="vendor/js/jquery.flexslider.js"></script>
+    <script src="vendor/js/bootstrap.js"></script>
     <script type="text/javascript" charset="utf-8">
       $(window).load(function() {
         $('.flexslider').flexslider();
       });
     </script>
+    <script src="source/js/main.js"></script>
   </head>
+
 
   <body>
     <header class="banner navbar navbar-default navbar-fixed-top" role="banner">
@@ -88,8 +80,76 @@
       </div>
     </div>
 
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title" id="exampleModalLabel">Contact Us</h1>
+          </div>
+          <div class="modal-body">
+            <p>
+              <h2>Address</h2>
+              2472 Petrodecks Blvd.<br>
+              Big Money, TX<br>
+              77638
+            </p>
+            <p>
+              <h2>Phone</h2>
+              (800) 567-9333
+            </p>
+            <p>
+              <h2>Fax</h2>
+              (800) 567-9334
+            </p>
+            <p>
+              <h2>Email</h2>
+              info@petrodecks.com
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <footer class="footer">
       <div class="container">
+        <div class="row">
+          <div class="col-xs-2"></div>
+          <div class="col-xs-8">
+            <ul class="nopad text-left" id="footbotnav">
+              <div class="row" id="footnavrow">
+                <div class="col-xs-3">
+                  <a href="#" class="bot" data-toggle="modal" data-target="#exampleModal">
+                    <li>
+                      <h6>Contact Us</h6>
+                    </li>
+                  </a>
+                </div>
+                <div class="col-xs-3">
+                  <a href="#" class="bot">
+                    <li>
+                      <h6>Terms Of Service</h6>
+                    </li>
+                  </a>
+                </div>
+                <div class="col-xs-3">
+                  <a href="#" class="bot">
+                    <li>
+                      <h6>Privacy Policy</h6>
+                    </li>
+                  </a>
+                </div>
+                <div class="col-xs-3">
+                  <a href="#" class="bot">
+                    <li>
+                      <h6>Press</h6>
+                    </li>
+                  </a>
+                </div>
+              </div>
+            </ul>
+          </div>
+          <div class="col-xs-2"></div>
+        </div>
         <div class="row">
           <div class="col-xs-12">
             <p>
