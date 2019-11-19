@@ -125,10 +125,11 @@ div.aboutwrap {
 div.searchwrap {
   margin-bottom: 40px;
 }
-/* #main {
+
+#main {
   overflow: auto;
-  padding-bottom: 40px;
-} */
+  /* padding-bottom: 40px; */
+}
 
 .nopad {
   padding: 0 !important;
