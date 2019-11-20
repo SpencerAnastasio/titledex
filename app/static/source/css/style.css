@@ -7,11 +7,12 @@ body {
   font-family: "Ariel", "Ariel Regular", "Helvetica", sans-serif;
   font-size:16px;
   color:#989898;
-  background-color: #f4f4f4;
+  background-color: #FFFFFF;
 }
 
 html, body {
-  height: 100%;
+  height: 100% !important;
+  margin: 0;
 }
 
 strong {
@@ -150,6 +151,10 @@ nav {
   border-bottom: 1px #E2DED3 solid !important;
 }
 
+header{
+  background: #FFFFFF !important;
+}
+
 .navbar-collapse {
   text-align: center;
 }
@@ -181,19 +186,19 @@ ul.nav.navbar-nav.navbar-right li form {
 
 a#ambassadors-nav-link {
   color:#0B3D60;
-  transition:color .1s ease, background .1s ease;
+  /* transition:color .1s ease, background .1s ease; */
 }
 
 a#story-nav-link {
   /* color:#A39468; */
   color:#0B3D60;
-  transition:color .1s ease, background .1s ease;
+  /* transition:color .1s ease, background .1s ease; */
 }
 
 a#ambassadors-nav-link:hover,
 a#story-nav-link:hover {
   background: #0B3D60;
-  color: #FFF;
+  color: #FFFFFF;
 }
 
 .navbar-form input.form-control {
@@ -236,7 +241,7 @@ form.navbar-form .form-group.input-group {
 .navbar-default {
   height: 55px;
   border: none;
-  background-color: #FFF;
+  background-color: #FFFFFF;
 }
 
 #navy {
@@ -259,7 +264,7 @@ form.navbar-form .form-group.input-group {
 
 a#ambassadors-nav-link, a#story-nav-link {
   width: 100%;
-  background: #FFF;
+  background: #FFFFFF;
 }
 
 .navbar-default .navbar-form {border:none;}
@@ -271,11 +276,11 @@ a#ambassadors-nav-link, a#story-nav-link {
 }
 
 .navbar-default .navbar-toggle {
-  border: none;
+  border: #FFFFFF;
 }
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-  background: none;
+  background: #FFFFFF;
 }
 
 .navbar-collapse .navbar-nav {
@@ -309,12 +314,12 @@ form.navbar-form .form-group.input-group {
 
 a#ambassadors-nav-link.main-nav-active {
   background: #0B3D60!important;
-  color: #FFF!important;
+  color: #FFFFFF!important;
 }
 
 a#story-nav-link.main-nav-active {
   background: #A39468;
-  color: #fff;
+  color: #FFFFFF;
 }
 
 .nav-overlay {
@@ -349,6 +354,7 @@ Footer
   bottom: 0;
   width: 100%;
   text-align: center;
+  z-index: 2;
 }
 
 #foottopcard-quote {
@@ -2208,7 +2214,7 @@ textarea {
   }
 
   .imgLiquidFill.imgLiquid.imgLiquid_bgSize.imgLiquid_ready {
-    height: 600px!important;
+    height: 100% !important;
   }
 
   .slide_text {
