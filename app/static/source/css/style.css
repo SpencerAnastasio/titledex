@@ -1507,7 +1507,7 @@ Media Queries
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices 768px and up */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px){
   .map-filter{
     width: initial;
   }
@@ -1858,14 +1858,21 @@ hr {
     font-size: 32px;
   }
 
+/*-------- NAVBAR BEGIN --------*/
+/*-------- NAVBAR END --------*/
 
-  /* ----- Modal End --- */
+/*-------- SLIDER BEGIN--------*/
+/*-------- SLIDER END --------*/
 
+/* ------- FOOTER BEGIN -----*/
+/* ------- FOOTER END -----*/
+
+/* ------- Modal Begin --- */
+/* ------- Modal End --- */
 }
 
 /* Medium devices 992px and up */
-@media (min-width: 992px) {
-
+@media (min-width: 992px){
   .container {
     max-width: 890px;
     min-width: 750px;
@@ -2122,17 +2129,21 @@ textarea {
   float: left;
   margin: 0px 45px 0px 0px;
 }
+/*-------- NAVBAR BEGIN --------*/
+/*-------- NAVBAR END --------*/
 
+/*-------- SLIDER BEGIN--------*/
+/*-------- SLIDER END--------*/
 
-/*-------- Story Form End --------*/
+/* ------- FOOTER BEGIN -----*/
+/* ------- FOOTER END -----*/
 
-
+/* ------- Modal Begin --- */
+/* ------- Modal End --- */
 }
 
-
 /* Large devices 1200px and up */
-@media (min-width: 1200px) {
-
+@media (min-width: 1200px){
   .container {
     max-width: 1000px !important;
     margin: 0 auto;
@@ -2214,7 +2225,7 @@ textarea {
   }
 
   .imgLiquidFill.imgLiquid.imgLiquid_bgSize.imgLiquid_ready {
-    height: 100% !important;
+    height: 600px!important;
   }
 
   .slide_text {
@@ -2244,11 +2255,21 @@ textarea {
   span.no-file-chosen {
     padding-left: 0px;
   }
+/*-------- NAVBAR BEGIN --------*/
+/*-------- NAVBAR END --------*/
 
+/*-------- SLIDER BEGIN--------*/
+/*-------- SLIDER END--------*/
+
+/* ------- FOOTER BEGIN -----*/
+/* ------- FOOTER END -----*/
+
+/* ------- Modal Begin --- */
+/* ------- Modal End --- */
 }
 
-@media (min-width: 1400px) {
-
+/* Extra Large devices 1400px and up */
+@media (min-width: 1400px){
   .container {
     max-width: 1360px !important;
     margin: 0 auto;
@@ -2261,5 +2282,15 @@ textarea {
   .grid.row.ambassador-cards p#card-quote {
     height: 70px;
   }
+/*-------- NAVBAR BEGIN --------*/
+/*-------- NAVBAR END --------*/
 
+/*-------- SLIDER BEGIN--------*/
+/*-------- SLIDER END--------*/
+
+/* ------- FOOTER BEGIN -----*/
+/* ------- FOOTER END -----*/
+
+/* ------- Modal Begin --- */
+/* ------- Modal End --- */
 }
